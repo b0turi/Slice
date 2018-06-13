@@ -1,48 +1,33 @@
 <html>
   <head>
-    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="anim.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="scripts.js"></script>
     <link href="./styles.css" rel="stylesheet" />
+
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   </head>
   <body>
-
     <div class="container">
-      <div class="row fluid">
-        <div class="button-group">
-          <button class="slider">
-            <span><i class="fas fa-plus"></i>&nbsp;<i class="fas fa-coins"></i></span>
-            <span class="remainder">New Transaction</span>
-          </button>
-          <button class="stationary">Middle</button>
-          <button class="stationary">Other Stuff</button>
+      <div class="deck">
+        <div class="card-holder">
+          <div class="card card-left shadow"></div>
+          <div class="card card-left">
+            <img class="card-image-left" src="slice.png" />
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col" style="background-color: #efe;">
-          <!-- Main Buttons -->
-          <p>Buttons to add on this side:<p>
-            <ul>
-              <li>View Weekly Spending</li>
-              <li>View Budgets</li>
-              <li>View Piggy Bank</li>
-            </ul>
+        <div class="card-holder">
+          <div class="card card-right shadow pull-up"></div>
+          <div class="card card-right">
+            <img class="card-image-right" src="slice.png" />
+          </div>
         </div>
-        <div class="col" style="background-color: #fef;">
-          <!-- This Week Pie Chart -->
-          <p >This will be the pie chart that contains all the info about the current week<p>
+
+        <div class="card-holder">
+          <div class="card card-left shadow pull-up"></div>
+          <div class="card card-left">
+            <img class="card-image-left" src="slice.png" />
+          </div>
         </div>
-      </div>
-      <div class="row" style="background-color: #eef;">
-        <p>This is the toolbar that runs along the bottom. It contains buttons that change:</p>
-        <ul>
-          <li>Saved Categories</li>
-          <li>
-        </ul>
       </div>
     </div>
   </body>
