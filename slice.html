@@ -1,34 +1,63 @@
 <html>
   <head>
-    <script src="scripts.js"></script>
     <link href="./styles.css" rel="stylesheet" />
 
     <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
   </head>
   <body>
+    <button class="randomize">randomize</button>
     <div class="container">
+      <script src="add-pie.js"></script>
       <div class="deck">
+
         <div class="card-holder">
-          <div class="card card-left shadow"></div>
+          <div class="card-shadow card-shadow-left card-left"></div>
           <div class="card card-left">
             <img class="card-image-left" src="slice.png" />
           </div>
-        </div>
-        <div class="card-holder">
-          <div class="card card-right shadow pull-up"></div>
-          <div class="card card-right">
-            <img class="card-image-right" src="slice.png" />
+          <div class="accent accent-right">
+            <div class="accent-shadow"><div class="accent-background"></div></div>
+            <div class="accent-header accent-header-right accent-content-right">hi there</div>
+            <div class="accent-text accent-content-right">
+              <p>This is some sample text I wrote to let you know about my new product</p>
+            </div>
           </div>
         </div>
 
         <div class="card-holder">
-          <div class="card card-left shadow pull-up"></div>
+          <div class="card-shadow card-shadow-right card-right"></div>
+          <div class="card card-right">
+            <img class="card-image-right" src="slice.png" />
+          </div>
+          <div class="accent accent-left">
+            <div class="accent-shadow"><div class="accent-background"></div></div>
+            <div class="accent-header accent-header-left accent-content-left">hi there</div>
+            <div class="accent-text accent-content-left">
+              <p>This is some sample text I wrote to let you know about my new product</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-holder">
+          <div class="card-shadow card-shadow-left card-left"></div>
           <div class="card card-left">
             <img class="card-image-left" src="slice.png" />
           </div>
+          <div class="accent accent-right">
+            <div class="accent-shadow"><div class="accent-background"></div></div>
+            <div class="accent-header accent-header-right accent-content-right">hi there</div>
+            <div class="accent-text accent-content-right">
+              <p>This is some sample text I wrote to let you know about my new product</p>
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
+
+
   </body>
 </html>
