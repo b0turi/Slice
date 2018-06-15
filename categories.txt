@@ -1,0 +1,89 @@
+SELF CARE
+  - Hygiene
+  - Cosmetics
+  - Haircuts
+  - Spa/Massage
+  - Fitness
+
+PETS
+  - New Pet
+  - Pet Food
+  - Pet Accessories
+  - Pet Medical Expenses
+  - Pet Grooming
+  - Pet Training
+
+MEDICAL
+  - Medications
+  - Insurance
+  - Dental Procedures
+  - Medical Procedures
+
+HOME
+  - Rent
+  - House/Mortgage
+  - Furniture
+  - Appliances
+
+FOOD AND DRINK
+  - Groceries
+  - Snacks
+  - Beverages
+  - Fast Food
+  - Restaurants
+
+TRANSPORTATION
+  - Car Payments
+  - Car Maintenance
+  - Fuel
+  - Ride-Sharing
+  - Public Transportation
+  - Alternative Transportation
+
+BILLS
+  - Electricity
+  - Water
+  - Sewage
+  - Garbage
+  - Internet
+  - Credit Cards
+
+
+TRAVEL
+  - Hotels
+  - Airfare
+  - Car Rentals
+  - Souvenirs
+
+SHOPPING
+  - Clothing
+  - Decorations
+  - Kitchen
+  - Electronics
+  - Gifts
+  - Office/School Supplies
+  - Musical Instruments
+
+ENTERTAINMENT
+  - Movies
+  - Games
+  - Books
+  - Events
+  - Attractions
+  - Subscriptions
+  - Sports/Outdoor
+
+UPKEEP
+  - Cleaning Supplies
+  - Consumable Supplies
+  - Tools/Hardware
+
+OUTDOORS
+  - Yard Tools
+  - Gardening
+  - Landscaping
+
+OTHER
+  - Donations
+  - School Payments
+  - Loans

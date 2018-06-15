@@ -1,0 +1,58 @@
+Every category will have:
+
+- Name
+- Icon
+- Color
+- Group
+
+While Viewing the Chart:
+
+Options: view groups/view categories
+
+Click on a slice: Bar graph of that slice across the seven days of the week
+  - if in group mode, stacked bar graph of each day
+
+List of all transactions on one side
+List of all categories on the other:
+  Background: Over-under on how much was spent vs how much was budgeted for the category
+
+transactions
+  - Things you spent money on in the past
+    - category
+    - amount
+    - date
+    - name
+
+budgeted transactions
+  - Things you know you're going to spend money on in the future (e.g. Rent, Bills)
+    - category
+    - amount
+    - date
+    - name
+
+wishlist transactions
+  - Things you want to buy but need to save up extra money to get (e.g.  Jetpack)
+    - category
+    - amount
+    - name
+    - importance (scale from 1 to 10)
+
+
+in a budget:
+  Two kinds of categories
+    - Spend this week
+    - Save this week
+  Budgeted transactions are automatically added to the total for "spend this week" in their categories
+  when the week their date falls within arrives
+
+savings pools:
+  - Keep track of how much is saved from past weeks in respective categories
+  - Can move around money from one pool to another
+  - Catch-all SAVINGS pool stores any extra money
+  - removed from the "spendable total" when something is to be saved
+  - Keep track of average amount of savings added to each category every week
+
+wishlist:
+  - Order wishlist transactions either by category or by importance
+  - Show how many weeks it would take with current savings patterns to buy each item
+  - Show same total and week count with catch-all SAVINGS added
